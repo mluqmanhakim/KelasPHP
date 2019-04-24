@@ -11,7 +11,7 @@
 	<?php
 		
 		$test = "35 seconds"; 
-		echo "<h1>$test</h1>";
+		print "<h1>$test</h1>";
 		
 		
 		// Variabel
@@ -40,13 +40,7 @@
 		}
 
 
-		// for loop
-		echo "<h3>Contoh For</h3>";
 		
-		for ($x = 0; $x <= 10; $x++) {
-		    echo "Angka yang muncul: $x <br>";
-		}
-
 		
 		echo "<h3>Contoh Foreach</h3>";
 		$array2 = array("nol", "satu" , "dua" , "tiga" , "empat");
