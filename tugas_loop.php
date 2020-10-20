@@ -28,6 +28,7 @@ $kumpulanPelamarKerja = [$pelamarKerja1, $pelamarKerja2, $pelamarKerja3, $pelama
 # iterasi pelamar kerja dengan foreach
 
 foreach ($kumpulanPelamarKerja as $pelamar) {
+    # ubah status sesuai umur pelamar
     if ($pelamar -> umur > 17 && $pelamar -> umur <= 30) {
         $pelamar -> status = "Lolos seleksi";
     }
@@ -35,6 +36,7 @@ foreach ($kumpulanPelamarKerja as $pelamar) {
         $pelamar -> status = "Tidak Lolos seleksi";
     }
 
+    # cetak data setiap pelamar
     echo $pelamar -> nama . " - " . $pelamar -> umur . " - " . $pelamar -> status . "<br>";
 
 }
